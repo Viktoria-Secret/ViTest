@@ -9,21 +9,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 .vercel
-dist/
-build/
-coverage/
-.turbo
-.swc/
-
-# Environment variables
-.env
-.envrc
-.env.*
-!.env.example
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+dist/
+build/
 
 # Docker
 .docker/
@@ -32,56 +23,30 @@ docker-compose.override.yml
 # Database
 *.sqlite3
 *.db
-# Uncomment if you want to exclude SQL files from version control
-# *.sql
-*.dump
-*.bak
 
-# Logs
-logs/
-*.log
+# Environment variables
+.env
+.envrc
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-.pytest_cache/
-.coverage
-.nyc_output
 
-# Editors and IDEs
+# Editor
 .idea/
 .vscode/
 .cursor/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
 # OS specific files
 .DS_Store
-.DS_Store?
 Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
 
 # API keys and secrets
-*.pem
-*.key
-*.p12
-*.pfx
-*.cer
 */keys/*
 */service_account.json
 *credentials*.json
 
-# Temporary files
-*.tmp
-*.temp
-temp/
-tmp/
-
 # Large files
 large_files.txt
+*.log
