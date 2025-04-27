@@ -1,0 +1,1 @@
+export async function submitPin(pin:string){return fetch('/api',{method:'POST',body:pin});}

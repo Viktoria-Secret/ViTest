@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+gspread
+google-auth
+supabase==2.3.0
+pytest
+httpx
+celery
+redis
